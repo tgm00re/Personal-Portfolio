@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles/index.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <nav class="flexbox-container">
+        <h1>Thomas Moore</h1>
+            <a href="https://github.com/tgm00re">
+                <img src="/styles/images/github-logo.png" alt="github logo" class="media-logo"/>
+            </a>
+            <a href="https://www.linkedin.com/in/tgm00re/">
+                <img src="/styles/images/linkedin-logo.png" alt="linkedin logo" class="media-logo"/>
+            </a>
+            <a href="https://twitter.com/ThomasM11968198">
+                <img src="/styles/images/twitter-logo.png" alt="twitter logo" class="media-logo"/>
+            </a>
+            <a href="mailto:tmoorecd@gmail.com">
+                <img src="/styles/images/email-logo.png" alt="email logo" class="media-logo"/>
+            </a>
+            <a href="#my-projects">My Projects</a>
+            <a href="#about-me">About Me</a>
+            <a href="#contact-me">Contact Me</a>
+    </nav>
+    <header class="flexbox-container black-background">
+        <img src="/styles/images/Profile-Image.jpg" alt="Image of Thomas Moore" id="profile-image"/>
+        <h3 id="favorite-quote">"A future where, with just a pair of glasses ... "<br><em>- Mark Zuckerberg</em></h3>
+    </header>
+    
+    <main id="content">
+
+        <h2>My Projects</h2>
+        <section id="my-projects" class="flexbox-container">
+            <div id="academy-airplane-master" class="flexbox-item">
+                <h3>Academy Airplane Master</h3>
+                <a href="">
+                    <img src="styles/images/academy-airplane-master-logo.jpg" alt="placeholder image" class="flexbox-img">
+                </a>
+                <p>A fun retro-arcade style shooter based off of Space Invaders.<br>Demonstrates a use of HTML, CSS, and JavaScript</p>
+            </div>
+            <div id="ninjaman" class="flexbox-item">
+                <h3>Ninjaman</h3>
+                <a href="">
+                    <img src="styles/images/ninjaman-logo.png" alt="placeholder image" class="flexbox-img">
+                </a>
+                <p>A pacman-style game.<br>Demonstrates a use of HTML, CSS, Javascript, and basic AI functionality.</p>
+            </div>
+        </section>
+
+        
+        <section id="about-me" class="black-background" style="text-align: center;">
+            <h2 id="#about-me">About Me</h2>
+            <p>
+            My interest in computer science started when I attended an introduction to game design course in the seventh grade. 
+            This sparked my interest in general programming and led me to improve my knowledge in the field of computer science 
+            through self-taught lessons, high school courses, and personal projects. My curiosity regarding computer science 
+            has only grown over time and continues to do so. <br><br>
+            After nearly 5 years of studying computer science and related fields, I decided to join the Coding Dojo bootcamp to improve 
+            my programming skills, learn new technologies, work with a diverse group of individuals, and help me determine what work in 
+            software engineering best suits my skills, interests, and personality.</p> 
+        </section>
+
+        <h2 id="contact-me">Contact Me!</h2>
+        <form>
+            <p>Name: <input type="text" value="" name="name"/></p>
+            <p>E-mail: <input type="email" value="" name="email"/></p>
+            <p>Message <br><textarea rows="15" cols="25"></textarea></p>
+            <p><input type="submit" value="submit" name="submit" id="submit"/>
+        </form>
+        
+    </main>
+</body>
+</html>
